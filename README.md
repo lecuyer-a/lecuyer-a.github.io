@@ -1,99 +1,60 @@
-Ce site présente le projet Formation en Génie Logiciel pour le développement d’applications en support à la population vieillissante, financé par le programme Samuel de Champlain. 
+<a href="https://jekyll-themes.com">
+<img src="https://img.shields.io/badge/featured%20on-JT-red.svg" height="20" alt="Jekyll Themes Shield" >
+</a>
 
+# Orbit
+> This theme is designed by Xiaoying Riley at [3rd Wave Media](http://themes.3rdwavemedia.com/). 
+> Visit her [website](http://themes.3rdwavemedia.com/) for more themes.
 
+I have made this into a Jekyll Theme. Checkout the live demo [here](https://webjeda.com/online-cv/).
 
-## Comment administrer le site ?
+<table>
+  <tr>
+    <th>Desktop</th>
+    <th>Mobile</th>
+  </tr>
+  <tr>
+    <td>
+        <img src="https://webjeda.com/online-cv/assets/images/desktop.png?raw=true" width="600"/>
+    </td>
+    <td>
+        <img src="https://webjeda.com/online-cv/assets/images/mobile.png?raw=true" width="250"/>
+    </td>
+  </tr>
+</table>
 
+## Installation
 
-### Les compétences 
+* [Fork](https://github.com/sharu725/online-cv/fork) the repository
+* Delete the `gh-pages` branch
+* Re-create the `gh-pages` branch
+* Go to settings and set Github Pages source as master.
+* Your new site should be ready at `https://username.github.io/online-cv/`
 
-Toutes les compétences sont décrites dans le fichier _data/competences.yml
-Chacune d'entre elles est composée de trois éléments : un nom (name), une courte description (short) et une image représentative (image). 
+Change all the details from one place: ``_data/data.yml``
 
-Elles sont affichées dans la page d'accueil, home. Cet affichage peut être modifié dans _layouts/home.html 
+Watch my [video](https://www.youtube.com/embed/T2nx6tj-ZH4) on installation.
 
+## Skins
 
-### L'équipe 
+There are 6 color schemes available:
 
-Tous les membres de l'équipe sont décrits dans le fichier _data/authors.yml
-Il y a, pour le moment, trois types de membres de l'équipe : 
-    - les membres principaux de l'équipe, dont la position est "equipe". Pour ces membres, on doit y renseigner le nom (name), l'avatar (avatar), une url externe si voulu (url), l'institution (institution) et une courte description (short). 
-    - les institutions impliquées dans le projet, dont la position est "institution". On doit ajouter le nom de l'institution (name) et le logo (logo). 
-    - les intervenants, dont tla position est "intervenant". Pour eux, il faut entrer le nom (name), d'où vient cet intervenant (institution), la date de l'intervention (date), et sa contribution (contribution). 
-    
-Les paramètres de la page de l'équipe peuvent être modifiés dans le fichier pages/aequipe.html. On peut notamment y modifier le titre de la page et l'image du header. 
-Le contenu de la page peut être modifié dans le fichier _includes/equipe.html
-Enfin, le style de la page peut être modifié dans le fichier _sass/includes/_equipe.scss. 
+| Blue | Turquoise | Green |
+|---------|---------|---------|
+| <img src="https://webjeda.com/online-cv/assets/images/blue.jpg" width="300"/> | <img src="https://webjeda.com/online-cv/assets/images/turquoise.jpg" width="300"/> | <img src="https://webjeda.com/online-cv/assets/images/green.jpg" width="300"/> |
 
+| Berry | Orange | Ceramic |
+|---------|---------|---------|
+| <img src="https://webjeda.com/online-cv/assets/images/berry.jpg" width="300"/> | <img src="https://webjeda.com/online-cv/assets/images/orange.jpg" width="300"/> | <img src="https://webjeda.com/online-cv/assets/images/ceramic.jpg" width="300"/> |
 
-### Les enseignements 
+## Credits
 
-Chaque enseignement correspond à un fichier .md du dossier _enseignements/ 
-La cartouche d'un enseignement doit à minima contenir :
-    - un layout (enseignement)
-    - un title
-    - une date 
-    - des authors (séparés par une virgule s'il y en a plusieurs, et correspondant aux noms des authors spécifiés dans le fichier _data/authors.yml)
+Thanks to [Nelson Estevão](https://github.com/nelsonmestevao) for all the [contributions](https://github.com/sharu725/online-cv/commits?author=nelsonmestevao).
 
-On peut y rajouter les cartouches suivantes : 
-    - level (un entier entre 0 et 10 qui décrit la difficulté de l'enseignement)
-    - institution 
-    - link (qui correpond au lien externe de l'enseignement)
-    - ihm (un entier entre 1 et 5 qui représente à quel point on a abordé la compétence Interaction Homme-Machine dans cet enseignement)
-    - user (un entier entre 1 et 5 qui représente à quel point on a abordé la compétence Prise en compte de l'utilisateur dans cet enseignement)
-    - ia (un entier entre 1 et 5 qui représente à quel point on a abordé la compétence Intelligence Artificielle dans cet enseignement)
-    - io (un entier entre 1 et 5 qui représente à quel point on a abordé la compétence Internet des Objets dans cet enseignement)
-    - gl (un entier entre 1 et 5 qui représente à quel point on a abordé la compétence Génie Logiciel dans cet enseignement)
-    - techno (un entier entre 1 et 5 qui représente à quel point on a abordé la compétence Technologies dans cet enseignement)
-    
+Thanks to [t-h-e(sfrost)](https://github.com/t-h-e) for all the [contributions](https://github.com/sharu725/online-cv/commits?author=t-h-e).
 
-### Les supports de cours  
+Check out for more themes: [**Jekyll Themes**](http://jekyll-themes.com).
 
-Chaque support de cours correspond à un fichier .md du dossier _supportscours/ 
-La cartouche d'un support de cours doit à minima contenir :
-    - un layout (support)
-    - un title
-    - une date 
-    - des authors (séparés par une virgule s'il y en a plusieurs, et correspondant aux noms des authors spécifiés dans le fichier _data/authors.yml)
-    - un enseignement (l'enseignement dans lequel ce support a été utilisé)
+## License
 
-On peut y rajouter les cartouches suivantes : 
-    - level (un entier entre 0 et 10 qui décrit la difficulté du support de cours)
-    - institution 
-    - link (qui correpond au lien externe du support de cours)
-    - ihm (un entier entre 1 et 5 qui représente à quel point on a abordé la compétence Interaction Homme-Machine dans ce support de cours)
-    - user (un entier entre 1 et 5 qui représente à quel point on a abordé la compétence Prise en compte de l'utilisateur dans ce support de cours)
-    - ia (un entier entre 1 et 5 qui représente à quel point on a abordé la compétence Intelligence Artificielle dans ce support de cours)
-    - io (un entier entre 1 et 5 qui représente à quel point on a abordé la compétence Internet des Objets dans ce support de cours)
-    - gl (un entier entre 1 et 5 qui représente à quel point on a abordé la compétence Génie Logiciel dans ce support de cours)
-    - techno (un entier entre 1 et 5 qui représente à quel point on a abordé la compétence Technologies dans ce support de cours)
-
-
-### Les travaux étudiants  
-
-Chaque travail étudiant correspond à un fichier .md du dossier _travauxetudiants/ 
-La cartouche d'un travail étudiant doit à minima contenir :
-    - un layout (travail)
-    - un title
-    - une date 
-    - des etudiants (séparés par une virgule s'il y en a plusieurs)
-    - un enseignement (l'enseignement dans lequel ce travail a été réalisé)
-
-On peut y rajouter les cartouches suivantes : 
-    - level (un entier entre 0 et 10 qui décrit la difficulté du support de cours)
-    - institution 
-    - link (qui correpond au lien externe du travail étudiant)
-    - ihm (un entier entre 1 et 5 qui représente à quel point on a abordé la compétence Interaction Homme-Machine dans ce travail étudiant)
-    - user (un entier entre 1 et 5 qui représente à quel point on a abordé la compétence Prise en compte de l'utilisateur dans ce travail étudiant)
-    - ia (un entier entre 1 et 5 qui représente à quel point on a abordé la compétence Intelligence Artificielle dans ce travail étudiant)
-    - io (un entier entre 1 et 5 qui représente à quel point on a abordé la compétence Internet des Objets dans ce travail étudiant)
-    - gl (un entier entre 1 et 5 qui représente à quel point on a abordé la compétence Génie Logiciel dans ce travail étudiant)
-    - techno (un entier entre 1 et 5 qui représente à quel point on a abordé la compétence Technologies dans ce travail étudiant)
-
-
-
-
-
-
-
-
+This project is licensed under the [MIT license](LICENSE.txt).
