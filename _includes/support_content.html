@@ -1,0 +1,86 @@
+{% assign item = include.item %}
+
+<div class="enseignement-info">
+    <p class="label">Enseignants</p>
+    {% assign authors = item.authors  | split: ", " %}
+    {% for author in authors %}
+    {% assign auteur = site.data.authors | where: "name",author | first %}
+    {%- if auteur.url -%}<a href="{{ auteur.url | relative_url }}" target="_blank">{%- endif -%}
+        {% if auteur.avatar  %}<img src="{{ auteur.avatar | relative_url }}">{% endif %}
+        {%- if auteur.url -%}</a>{%- endif -%}
+    {% endfor %}
+</div>
+{%- if item.institution -%}
+<div class="enseignement-info">
+    <p class="label">Institution</p>
+    <p class="souslabel">{{ item.institution }}</p>
+</div>
+{%- endif -%}
+{%- if item.enseignement -%}
+<div class="enseignement-info">
+    <p class="label">Enseignement</p>
+    {%- for enseignement in site.enseignements -%}
+    {%- if enseignement.title == page.enseignement -%}
+    <p class="souslabel"><a aria-label="{{ enseignement.title }}" href="{{ enseignement.url || relative_url }}">
+            {{ enseignement.title }}
+        </a></p>
+    {%- endif -%}
+    {%- endfor -%}
+
+</div>
+{%- endif -%}
+{%- if item.level -%}
+<div class="enseignement-info">
+    <p class="label">Niveau</p>
+    <img class="niveau" src="{{ site.url }}/assets/img/pourcentages/{{ item.level }}.jpg">
+</div>
+{%- endif -%}
+
+
+{%- if item.ihm or item.ia or item.gl or item.user or item.io or item.techo -%}
+<div class="enseignement-info">
+    <p class="label">Domaines de compétence visés</p>
+</div>
+{%- if item.ihm -%}
+<div class="enseignement-info">
+    <p class="souslabel">Interaction Homme-Machine</p>
+    <img class="etoiles" src="{{ site.url }}/assets/img/etoiles/{{ item.ihm }}.jpg">
+</div>
+{%- endif -%}
+
+{%- if item.ia -%}
+<div class="enseignement-info">
+    <p class="souslabel">Intelligence Artificielle</p>
+    <img class="etoiles" src="{{ site.url }}/assets/img/etoiles/{{ item.ia }}.jpg">
+</div>
+{%- endif -%}
+
+{%- if item.gl -%}
+<div class="enseignement-info">
+    <p class="souslabel">Génie Logiciel</p>
+    <img class="etoiles" src="{{ site.url }}/assets/img/etoiles/{{ item.gl }}.jpg">
+</div>
+{%- endif -%}
+
+{%- if item.user -%}
+<div class="enseignement-info">
+    <p class="souslabel">Prise en compte de l'utilisateur</p>
+    <img class="etoiles" src="{{ site.url }}/assets/img/etoiles/{{ item.user }}.jpg">
+</div>
+{%- endif -%}
+
+{%- if item.io -%}
+<div class="enseignement-info">
+    <p class="souslabel">Internet des objets</p>
+    <img class="etoiles" src="{{ site.url }}/assets/img/etoiles/{{ item.io }}.jpg">
+</div>
+{%- endif -%}
+
+{%- if item.techo -%}
+<div class="enseignement-info">
+    <p class="souslabel">Techonologies</p>
+    <img class="etoiles" src="{{ site.url }}/assets/img/etoiles/{{ item.techno }}.jpg">
+</div>
+{%- endif -%}
+
+{%- endif -%}

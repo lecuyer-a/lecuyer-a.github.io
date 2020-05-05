@@ -1,0 +1,25 @@
+img.member-photo { 
+    height: 20vw; 
+    width: 20vw; 
+    min-height: 100px; 
+    max-height: 225px; 
+    border-radius: 100%; 
+}
+
+img.institution-photo { 
+    height: 20vw; 
+    width: 20vw; 
+    min-height: 100px; 
+    max-height: 225px; 
+}
+
+.member-name { 
+    font-size: 20px; 
+}
+
+.memberbox { 
+    border: 0.01em solid $border-color; 
+    padding: 0.5em; 
+    margin: 0.5em; 
+    width: 30%; 
+}

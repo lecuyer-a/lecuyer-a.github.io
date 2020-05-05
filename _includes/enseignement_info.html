@@ -1,0 +1,38 @@
+{% assign item = include.item %}
+
+<div class="enseignement-info">
+    <p class="label">Enseignants</p>
+    {% assign authors = item.authors  | split: ", " %}
+    {% for author in authors %}
+    {% assign auteur = site.data.authors | where: "name",author | first %}
+    {%- if auteur.url -%}<a href="{{ auteur.url | relative_url }}" target="_blank">{%- endif -%}
+        {% if auteur.avatar  %}<img src="{{ auteur.avatar | relative_url }}">{% endif %}
+        {%- if auteur.url -%}</a>{%- endif -%}
+    {% endfor %}
+</div>
+{%- if item.institution -%}
+<div class="enseignement-info">
+    <p class="label">Institution</p>
+    <p class="souslabel">{{ item.institution }}</p>
+</div>
+{%- endif -%}
+{%- if item.level -%}
+<div class="enseignement-info">
+    <p class="label">Niveau</p>
+    <img class="niveau" src="{{ site.url }}/assets/img/pourcentages/{{ item.level }}.jpg">
+</div>
+{%- endif -%}
+
+{%- if item.ihm or item.ia or item.gl or item.user or item.io or item.techo -%}
+<div class="enseignement-info">
+    <p class="label">Domaines de compétence visés</p>
+</div>
+<div class="enseignement-info">
+    {%- if item.ihm -%}<p class="souslabel">Interaction Homme-Machine</p>{%- endif -%}
+    {%- if item.ia -%}<p class="souslabel">Intelligence Artificielle</p>{%- endif -%}
+    {%- if item.gl -%}<p class="souslabel">Génie Logiciel</p>{%- endif -%}
+    {%- if item.user -%}<p class="souslabel">Prise en compte de l'utilisateur</p>{%- endif -%}
+    {%- if item.io -%}<p class="souslabel">Internet des objets</p>{%- endif -%}
+    {%- if item.techo -%}<p class="souslabel">Techonologies</p>{%- endif -%}
+</div>
+{%- endif -%}

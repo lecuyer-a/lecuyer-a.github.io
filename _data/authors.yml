@@ -1,0 +1,35 @@
+- name: "Rohan Chandra"
+  position: equipe
+  avatar: "assets/img/avatars/rohanchandra.jpg"
+  url: "https://github.com/rohanchandra"
+  institution: UCA
+  short: Statuam non haberet malo inquit ambigere bonos quam ob rem id non meruerim, quam quod est gravius cur inpetraverim mussitare.
+- name: "Sylhare"
+  position: equipe
+  avatar: "assets/img/avatars/sylhare_avatar.png"
+  url: "https://github.com/sylhare"
+  institution: UCA
+  short: Acilio Glabrioni delatum est primo, cum consiliis armisque regem superasset Antiochum.
+- name: "Michael Rose"
+  position: equipe
+  avatar: "assets/img/avatars/mmistakes.jpg"
+  url: "https://github.com/mmistakes"
+  institution: UCA
+  short: Ex his quidam aeternitati se commendari posse per statuas aestimantes eas ardenter adfectant quasi plus praemii de figmentis aereis sensu carentibus adepturi.
+- name: "Mhagnumdw"
+  position: equipe
+  avatar: "assets/img/avatars/mhagnumdw_avatar.jpg"
+  url:
+  institution: UQUAM
+  short: Eminuit autem inter humilia supergressa iam impotentia fines mediocrium delictorum nefanda Clematii cuiusdam Alexandrini nobilis mors repentina.
+- name: Université Côté d'Azur
+  position: institution
+  logo: "assets/img/avatars/uca.png"
+- name: Université du Québec à Montréal
+  position: institution
+  logo: "assets/img/avatars/uqam.png"
+- name: Alison Lecuyer
+  position: intervenant
+  institution: IUT de Nice 
+  date: Avril 2020
+  contribution: Création du site web présentant le projet

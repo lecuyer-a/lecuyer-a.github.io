@@ -1,0 +1,51 @@
+---
+---
+[
+  {% for enseignement in site.enseignements %}
+  {
+    "title"    : "{{ enseignement.title | escape }}",
+    "auteurs" : "{{ enseignement.authors }}",
+    "level" : "{% if enseignement.level %}{{ enseignement.level }}{% else %}no{% endif %}",
+    "competences" : "{% if enseignement.ihm or enseignement.ia or enseignement.gl or enseignement.user or enseignement.io or enseignement.techo %}{% if enseignement.ihm %}Intéraction Homme-Machine ; {% endif %}{% if enseignement.user %}Prise en compte de l'utilisateur ; {% endif %}{% if enseignement.io %}Internet des objets ; {% endif %}{% if enseignement.gl %}Génie Logiciel ; {% endif %}{% if enseignement.ia %}Intelligence artificielle ; {% endif %}{% if enseignement.techno %}Technologies ; {% endif %}{% else %}Non renseigné{% endif %}",
+    "institution" : "{% if enseignement.institution %}{{ enseignement.institution }}{% else %}Non renseigné{% endif %}",
+    "date"     : "{{ enseignement.date | date: "%B %-d, %Y" }}",
+    "tags"     : "{{ enseignement.tags | join: ', ' | prepend: " " }}",
+    "url" : "{{ enseignement.url | relative_url }}",
+    "excerpt"  : {{ enseignement.content | strip_html | truncate: '250' | jsonify }},
+    "content"  : {{ enseignement.content | strip_html | escape | jsonify }}
+} {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+    
+  {% if site.supportscours.size > 0 %},{% endif %}
+  {% for supportcours in site.supportscours %}    
+  {
+    "title"    : "{{ supportcours.title | escape }}",
+    "auteurs" : "{{ supportcours.authors }}",
+    "level" : "{% if supportcours.level %}{{ supportcours.level }}{% else %}no{% endif %}",
+    "competences" : "{% if supportcours.ihm or supportcours.ia or supportcours.gl or supportcours.user or supportcours.io or supportcours.techo %}{% if supportcours.ihm %}Intéraction Homme-Machine ; {% endif %}{% if supportcours.user %}Prise en compte de l'utilisateur ; {% endif %}{% if supportcours.io %}Internet des objets ; {% endif %}{% if supportcours.gl %}Génie Logiciel ; {% endif %}{% if supportcours.ia %}Intelligence artificielle ; {% endif %}{% if supportcours.techno %}Technologies ; {% endif %}{% else %}Non renseigné{% endif %}",
+    "institution" : "{% if supportcours.institution %}{{ supportcours.institution }}{% else %}Non renseigné{% endif %}",
+    "date"     : "{{ supportcours.date | date: "%B %-d, %Y" }}",
+    "tags"     : "{{ supportcours.tags | join: ', ' | prepend: " " }}",
+    "url" : "{{ supportcours.url | relative_url }}",
+    "excerpt"  : {{ supportcours.content | strip_html | truncate: '250' | jsonify }},
+    "content"  : {{ supportcours.content | strip_html | escape | jsonify }}
+} {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+    
+    
+  {% if site.travauxetudiants.size > 0 %},{% endif %}
+  {% for travail in site.travauxetudiants %}
+  {
+    "title"    : "{{ travail.title | escape }}",
+    "auteurs" : "{{ travail.etudiants }}",
+    "level" : "{% if travail.level %}{{ travail.level }}{% else %}no{% endif %}",
+    "competences" : "{% if travail.ihm or travail.ia or travail.gl or travail.user or travail.io or travail.techo %}{% if travail.ihm %}Intéraction Homme-Machine ; {% endif %}{% if travail.user %}Prise en compte de l'utilisateur ; {% endif %}{% if travail.io %}Internet des objets ; {% endif %}{% if travail.gl %}Génie Logiciel ; {% endif %}{% if travail.ia %}Intelligence artificielle ; {% endif %}{% if travail.techno %}Technologies ; {% endif %}{% else %}Non renseigné{% endif %}",
+    "institution" : "{% if travail.institution %}{{ travail.institution }}{% else %}Non renseigné{% endif %}",
+    "date"     : "{{ travail.date | date: "%B %-d, %Y" }}",
+    "tags"     : "{{ travail.tags | join: ', ' | prepend: " " }}",
+    "url" : "{{ travail.url | relative_url }}",
+    "excerpt"  : {{ travail.content | strip_html | truncate: '250' | jsonify }},
+    "content"  : {{ travail.content | strip_html | escape | jsonify }}
+} {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]
