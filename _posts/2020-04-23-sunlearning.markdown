@@ -1,6 +1,6 @@
 ---
 title: SunLearning
-subtitle: Android mobile app to learn about solar system
+subtitle: Mobile app to learn about solar system
 layout: default
 modal-id: 5
 date: 2020-04-23
