@@ -6,10 +6,10 @@ title: Alison Lecuyer
 email: alison.lecuyer@etu.unice.fr
 description: "Personal resume and portfolio."
 
-membre: 
+member: 
     name: Alison Lecuyer 
     pic: alison
-    network:
+    social:
     - title: github
       url: https://github.com/lecuyer-a
     - title: linkedin
