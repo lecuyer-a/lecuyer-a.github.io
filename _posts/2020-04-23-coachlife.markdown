@@ -1,6 +1,6 @@
 ---
 title: CoachLife
-subtitle: A software to help you in your sports exercises
+subtitle: To help you in your sports exercises
 layout: default
 modal-id: 3
 date: 2020-04-23
