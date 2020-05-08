@@ -2,9 +2,9 @@
 title: PesePersonne
 subtitle: The software connected to your scale
 layout: default
-modal-id: 3
+modal-id: 4
 date: 2020-04-23
-img: peselife.png
+img: peselife.PNG
 thumbnail: peselife-thumbnail.jpeg
 alt: image-alt
 project-date: April 2014

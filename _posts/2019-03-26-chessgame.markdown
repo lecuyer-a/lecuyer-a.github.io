@@ -4,7 +4,7 @@ subtitle: A command prompt game
 layout: default
 modal-id: 1
 date: 2020-04-23
-img: chessgame.png
+img: chessgame.PNG
 thumbnail: chessgame-thumbnail.jpg
 alt: image-alt
 project-date: March 2019

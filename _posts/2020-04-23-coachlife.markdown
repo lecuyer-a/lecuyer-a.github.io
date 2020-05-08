@@ -2,9 +2,9 @@
 title: CoachLife
 subtitle: A software to help you in your sports exercises
 layout: default
-modal-id: 4
+modal-id: 3
 date: 2020-04-23
-img: coachlife.png
+img: coachlife.PNG
 thumbnail: coachlife-thumbnail.jpg
 alt: image-alt
 project-date: April 2014
