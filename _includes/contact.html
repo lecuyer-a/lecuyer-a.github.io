@@ -9,6 +9,14 @@
         <div class="row">
 
             {% assign member = site.member %}
+            <ul style='list-style: none'>
+                <li>Location: {{ member.address }}</li>
+                <li>Phone: {{ member.phone }}</li>
+                <li>E-mail adress: {{ member.mail }}</li>
+            
+            </ul>
+            
+            
             <ul class="list-inline social-buttons">
                 {% for network in member.social %}
                 <li>
