@@ -9,6 +9,20 @@ description: "Personal resume and portfolio."
 member: 
     name: Alison Lecuyer 
     pic: alison
+    short: Passionate about programming, I wish from a young age to work in IT. 
+    birth: 18/10/2000
+    language:
+    - title: French
+      level: Native
+    - title: English 
+      level: Professional 
+    - title: Spanish 
+      level: Notions 
+    - title: Japanese 
+      level: Notions 
+    mail: alison.lecuyer@etu.unice.fr
+    phone: 0786350474
+    address: 185 chemin de la Costière, 06000, Nice, France 
     social:
     - title: github
       url: https://github.com/lecuyer-a
