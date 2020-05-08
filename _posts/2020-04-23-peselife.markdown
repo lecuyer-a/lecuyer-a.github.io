@@ -5,7 +5,7 @@ layout: default
 modal-id: 3
 date: 2020-04-23
 img: peselife.png
-thumbnail: peselife-thumbnail.jepg
+thumbnail: peselife-thumbnail.jpeg
 alt: image-alt
 project-date: April 2014
 context: Semester 4, DUT Informatique
