@@ -2,46 +2,19 @@
 layout: default
 ---
 
-<section id="header" class="theme-blue element">
-    {% include header.html %}
-</section>
+<div class="home">
 
-<section id="contacts-bar" >
+  <h1>Posts</h1>
 
-    {% include nav.html class="justify-content-center" links = site.data.contact-links type="contacts-bar" %}
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
 
-</section>
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
-
-<section id="navigation-bar" >
-
-    {% include nav.html class="justify-content-center" links = site.data.links type="navbar" %}
-
-</section>
-
-
-<section id="experiences"  class="section";>
-    {% include experiences.html experiences=site.data.experiences %}
-</section>
-
-<section id="skills" class="section" >
-    {% include skills.html skills=site.data.skills %}
-</section>
-
-<section id="portfolio" class="section" >
-
-    {% include portfolio.html items=site.data.portfolio.data %}
-
-</section>
-
-<section id="education" class="section">
-    {% include education.html %}
-</section>
-
-<section id="contact" class="section">
-    {% include contact.html %}
-</section>
-
-<section id="footer" class="section">
-    {% include footer.html %}
-</section>
+</div>

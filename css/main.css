@@ -1,4 +1,0 @@
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"@import \"mixins\"\": expected \"{\", was \";\"\A         on line 9 of main.scss\A \A 4: // author: Ankanna\A 5: //email: bugboy@gmx.com\A 6: \A 7: //Importing _sass files\A 8: \A 9: @import \"mixins\";\A 10: @import \"generators\";\A 11: @import \"variables\";\A 12: @import \"themes\";\A 13: \A 14: // end of importing"; }

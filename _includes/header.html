@@ -1,32 +1,58 @@
-
-<div id="hire">
-    <div class="contianer">
-        <ul class="nav justify-content-end">
-
-            <li class="nav-item">
-                <button class="btn" type="button" id="hireme">
-                    <a class="hire-link active" href="mailto: {{site.email}}"> <i class="fa fa-paper-plane"> </i>   HIRE ME</a>
+<!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
                 </button>
-            </li>
+                <a class="navbar-brand page-scroll" href="#page-top">{{site.title}}</a>
+            </div>
 
-        </ul>
-    </div>
-</div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#services">Services</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#team">Team</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
 
-<div class="social-media-bar">
-    {% include social.html social= site.data.profile.social %}
-</div>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-lead-in">Welcome To Our Studio!</div>
+                <div class="intro-heading">It's Nice To Meet You</div>
+                <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
+            </div>
+        </div>
+    </header>
+<!--
+        {% for page in site.pages %}
+          {% if page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
+        {% endfor %}
+ -->
 
-<div id="profile-image">
-
-    <img class="rounded-circle mx-auto d-block img-fluid" src="/images/profile.jpg"></img>
-    <h1 class="profile-name "> {{ site.data.profile.name}} </h1>
-    <h1 class="profile-title text-center"> {{ site.data.profile.title }} </h1>
-
-</div>
-
-<div id="profile-description">
-    <div class="container col-md-6 col-md-offset-3 ">
-        <i class="fa fa-info text-white"></i>  <p class="text-justify" > {{ site.data.profile.description }} </p>
-    </div>
-</div>
