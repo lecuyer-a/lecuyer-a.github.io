@@ -5,7 +5,7 @@ layout: default
 modal-id: 5
 date: 2020-06-06
 img: stagei3s.JPG
-thumbnail: stage-thumbnail.jpeg
+thumbnail: stage-thumbnail.jpg
 alt: image-alt
 project-date: Avril - Juin 2020
 context: Stage DUT Informatique
