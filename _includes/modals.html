@@ -16,7 +16,7 @@
                             <hr class="star-primary">
                             <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
                             <p>{{ post.description }}</p>
-                            {% if post.video %}<video width="100%" loop controls muted><source src="videos/{{ post.video }}" type="video/mp4" /></video>{% endif %}
+                            {% if post.video %}<video width="100%" loop controls><source src="videos/{{ post.video }}" type="video/mp4" /></video>{% endif %}
                             <ul class="list-inline item-details">
                                 <li>Contexte:
                                     <strong>{{ post.context }}
