@@ -2,7 +2,7 @@
 title: Gestion Automatique de sujets et de copies d’examens
 subtitle: Un projet à 16 personnes 
 layout: default
-modal-id: 6
+modal-id: 2
 date: 2020-01-20
 img: qcm.jpg
 thumbnail: qcm-thumbnail.jpg
