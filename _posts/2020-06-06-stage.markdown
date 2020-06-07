@@ -1,11 +1,11 @@
 ---
-title: SunLearning
-subtitle: Découvrir le système solaire
+title: Stage de validation de DUT
+subtitle: Un site web mettant en avant un projet
 layout: default
 modal-id: 4
 date: 2020-04-23
 img: sunlearning.jpeg
-thumbnail: sunlearning.jpeg
+thumbnail: stage-thumbnail.jpg
 alt: image-alt
 project-date: Mars 2020
 context: Semestre 4, DUT Informatique
