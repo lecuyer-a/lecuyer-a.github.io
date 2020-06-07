@@ -1,5 +1,5 @@
 ---
-title: Chess Game
+title: Jeu d'échec
 subtitle: Un jeu d'échec en ligne de commande
 layout: default
 modal-id: 1
