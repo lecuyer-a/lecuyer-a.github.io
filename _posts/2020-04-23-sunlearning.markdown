@@ -1,6 +1,6 @@
 ---
 title: SunLearning
-subtitle: Application mobile pour découvrir le système solaire
+subtitle: Découvrir le système solaire
 layout: default
 modal-id: 5
 date: 2020-04-23

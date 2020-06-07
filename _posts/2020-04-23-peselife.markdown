@@ -1,15 +1,16 @@
 ---
 title: PesePersonne
-subtitle: The software connected to your scale
+subtitle: Le logiciel connecté à votre balance
 layout: default
 modal-id: 4
 date: 2020-04-23
 img: peselife.PNG
 thumbnail: peselife-thumbnail.jpeg
 alt: image-alt
-project-date: April 2014
-context: Semester 4, DUT Informatique
-category: Java Software, Bluetooth 
+project-date: Avril 2014
+context: Semestre 4, DUT Informatique
+category: Logiciel Java, Bluetooth 
 description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+video: Demo_PeseLife.mp4
 
 ---
