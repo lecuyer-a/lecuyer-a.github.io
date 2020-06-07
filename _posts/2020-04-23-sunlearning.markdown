@@ -5,7 +5,7 @@ layout: default
 modal-id: 5
 date: 2020-04-23
 img: sunlearning.jpeg
-thumbnail: sunlearning.jpegn
+thumbnail: sunlearning.jpeg
 alt: image-alt
 project-date: Mars 2020
 context: Semestre 4, DUT Informatique
