@@ -9,7 +9,7 @@ thumbnail: chessgame-thumbnail.jpg
 alt: image-alt
 project-date: March 2019
 context: Semester 2, DUT Informatique
-category: Android Mobile App
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+category: Logiciel Java
+description: Ce logiciel est le résultat d'un travail d'équipe de quatre personnes, dont j'étais la cheffe de projet. Il fut réalisé dans le cadre du module Projet tutoré - Planification de projet, durant le semestre 2 du DUT Informatique de Nice. Le but était de développer un jeu d'échec en ligne de commande. 
 
 ---

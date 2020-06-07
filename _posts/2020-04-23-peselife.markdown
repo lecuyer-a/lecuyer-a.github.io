@@ -10,7 +10,7 @@ alt: image-alt
 project-date: Avril 2014
 context: Semestre 4, DUT Informatique
 category: Logiciel Java, Bluetooth 
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+description: Ce logiciel est le résultat d'un travail d'équipe de six personnes, dont j'étais la cheffe de projet. Il fut réalisé dans le cadre du module Méthodologie orientée métier, durant le semestre 4 du DUT Informatique de Nice. Le but était de développer une application logicielle qui peut se connecter à une balance en Bluetooth. Voici une vidéo présentant notre logiciel. 
 video: Demo_PeseLife.mp4
 
 ---

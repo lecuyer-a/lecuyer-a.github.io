@@ -9,8 +9,8 @@ thumbnail: coachlife-thumbnail.jpg
 alt: image-alt
 project-date: Avril 2014
 context: Semestre 4, DUT Informatique
-category: Application Java
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+category: Logiciel Java
+description: Ce logiciel est le résultat d'un travail d'équipe de quatre personnes, dont j'étais la cheffe de projet. Il fut réalisé dans le cadre du module Management des Systèmes d'Information, durant le semestre 4 du DUT Informatique de Nice. Le but était de développer une application logicielle qui permet d'accompagner et de suivre des utilisateurs dans leur activité sportive. Il permet notamment de réaliser des exercices physiques devant son ordinateur, avec une aide en temps réel. Voici une vidéo présentant notre logiciel. 
 video: Demo_CoachLife.mkv
 
 ---
