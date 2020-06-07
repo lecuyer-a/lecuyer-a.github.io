@@ -2,7 +2,7 @@
 title: CoachLife
 subtitle: Vous aider dans vos exercices sportifs
 layout: default
-modal-id: 3
+modal-id: 2
 date: 2020-04-23
 img: coachlife.PNG
 thumbnail: coachlife-thumbnail.jpg
