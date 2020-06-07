@@ -1,0 +1,15 @@
+---
+title: Gestion Automatique de sujets et de copies d’examens
+subtitle: Un projet à 16 personnes 
+layout: default
+modal-id: 6
+date: 2020-01-20
+img: qcm.jpg
+thumbnail: qcm-thumbnail.jpg
+alt: image-alt
+project-date: Janvier 2020
+context: Semestre 3, DUT Informatique
+category: Logiciel Java, Génération de PDF, Reconnaissance optique
+description: Ce logiciel est le résultat d'un travail d'équipe de seize personnes, dont j'étais la sous-cheffe de projet. Il fut réalisé dans le cadre du module Projet tutoré, durant le semestre 3 du DUT Informatique de Nice. Le but était de développer un logiciel en ligne de commande permettant d'aider les enseignants dans la saisie des notes et la correction des copies à l'aide de techniques de reconnaissance optique de marques. Il fallait égalemment qu'il soit capable de générer des sujets et des copies de QCM. 
+
+---
