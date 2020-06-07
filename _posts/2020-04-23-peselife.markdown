@@ -7,7 +7,7 @@ date: 2020-04-23
 img: peselife.PNG
 thumbnail: peselife-thumbnail.jpeg
 alt: image-alt
-project-date: Avril 2014
+project-date: Avril 2020
 context: Semestre 4, DUT Informatique
 category: Logiciel Java, Bluetooth 
 description: Ce logiciel est le résultat d'un travail d'équipe de six personnes, dont j'étais la cheffe de projet. Il fut réalisé dans le cadre du module Méthodologie orientée métier, durant le semestre 4 du DUT Informatique de Nice. Le but était de développer une application logicielle qui peut se connecter à une balance en Bluetooth. Voici une vidéo présentant notre logiciel. 
