@@ -4,21 +4,21 @@ baseurl: /
 # Site settings
 title: Alison Lecuyer
 email: alison.lecuyer@etu.unice.fr
-description: "Personal resume and portfolio."
+description: "CV et portfolio."
 
 member: 
     name: Alison Lecuyer
     pic: alison
-    short: Passionate about programming, I wish from a young age to work in IT. I'm currently validating my DUT, and I'm looking for a company to continue my studies in a work-study engineering school. 
+    short: Passionnée de la programmation, je rêve depuis mon jeune âge de travailler dans le domaine de l'informatique. Je suis actuellement en train de valider mon DUT Informatique, et je cherche une entreprise pour continuer mes études en alternance dans une école d'ingénieur. Après mes études, je souhaiterai m'orienter dans le domaine du développement logiciel.
     birth: 18/10/2000
     language:
-    - title: French
-      level: Native
-    - title: English 
-      level: Professional 
-    - title: Spanish 
+    - title: Français
+      level: Langue maternelle
+    - title: Anglais 
+      level: Professionnel 
+    - title: Espagnol 
       level: Notions 
-    - title: Japanese 
+    - title: Japonais 
       level: Notions 
     mail: alison.lecuyer@etu.unice.fr
     phone: 0786350474
