@@ -7,8 +7,14 @@
                     <h3 class="section-subheading text-muted"></h3>
                 </div>
             </div>
-            <div class="row">
+    {% assign memberindex = 0 %}
             {% for post in site.posts %}
+    {% assign memberindex = memberindex | plus: 1 %}
+    {% assign colindex = memberindex | modulo: 3 %}
+    {% if colindex == 1 %}
+    <!-- opening of a new row -->
+    <div class="row">
+    {% endif %}
                 <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
@@ -23,7 +29,10 @@
                         <p class="text-muted">{{ post.subtitle }}</p>
                     </div>
                 </div>
+    {% if colindex == 0 %}
+    <!-- closing a row -->
+    </div>
+    {% endif %}
             {% endfor %}
-            </div>
         </div>
     </section>
