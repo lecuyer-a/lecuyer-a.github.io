@@ -3,7 +3,7 @@ title: Stage de validation de DUT
 subtitle: Un site web mettant en avant un projet
 layout: default
 modal-id: 4
-date: 2020-06-06
+date: 2020-04-10
 img: stagei3s.JPG
 thumbnail: stage-thumbnail.jpg
 alt: image-alt
