@@ -3,7 +3,7 @@ title: Jeu d'échec
 subtitle: Un jeu d'échec en ligne de commande
 layout: default
 modal-id: 1
-date: 2020-04-23
+date: 2019-04-23
 img: chessgame.PNG
 thumbnail: chessgame-thumbnail.jpg
 alt: image-alt
