@@ -3,26 +3,26 @@ baseurl: /
 
 # Site settings
 title: Alison Lecuyer
-email: alison.lecuyer@etu.unice.fr
+email: alison.lecuyer.tsu@gmail.com
 description: "CV et portfolio."
 
 member: 
     name: Alison Lecuyer
     pic: alison2
-    short: Passionnée par la programmation, je rêve depuis mon jeune âge de travailler dans le domaine de l'informatique. Je suis actuellement en train de valider mon DUT Informatique, et je cherche une entreprise pour continuer mes études en alternance dans une école d'ingénieur. Après mes études, je souhaiterais m'orienter dans le domaine du développement logiciel.
+    short: Je suis actuellement en 4ème année en formation d'ingénieur en Informatique à l'INSA de Lyon. Je suis en apprentissage et travaille chez Groupama Supports et Services depuis septembre 2020. Je suis néanmoins à la recherche d'une entreprise afin de terminer ma formation, qui sera finie en septembre 2023. Je recherche un emploi dans le domaine de l'UX/UI Design ou du développement logiciel, ces deux aspects de l'informatique me passionnant depuis mon plus jeune âge.
     birth: 18/10/2000
     language:
     - title: Français
       level: Langue maternelle
     - title: Anglais 
-      level: Professionnel 
+      level: B2 
     - title: Espagnol 
-      level: Notions 
+      level: B1 
     - title: Japonais 
-      level: Notions 
-    mail: alison.lecuyer@etu.unice.fr
+      level: A2 
+    mail: alison.lecuyer.tsu@gmail.com
     phone: 0786350474
-    address: Nice, France 
+    address: Lyon, France 
     social:
     - title: github
       url: https://github.com/lecuyer-a
